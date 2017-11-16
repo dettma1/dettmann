@@ -51,7 +51,7 @@ header {
 #masthead {
   color: white;
   background: /*linear-gradient(rgba(228, 160, 27,.5), rgba(0,0,0,0.4)),*/ url("../img/mt.jpg") 0% 0%/cover;
-  height: 1935px;
+  
 }
 #masthead p {
   font-size: 24px;
