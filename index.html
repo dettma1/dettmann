@@ -81,17 +81,48 @@
                 <a href = "https://petermchoke.github.io/stoBooks/" target="_blank"><img class = " rounded-circle m-2" src = "resources/img/StoBooksLogo1.png"/><br />
                 <span class = "text-secondary">StoBooks</span></a>
               </li>
-              
+              <script src="/resources/js/imgpop.js"></script>
+
+              <!--ole guace-->
               <li class = "list-inline-item py-3">
                 <a href = "http://ole-guacamole.com/" target="_blank"><img class = " rounded-circle m-2" src = "resources/img/hackISU.png"/><br />
                 <span class = "text-secondary">HackISU Fall '17 Project</span></a>
               </li>
+              <!--photography-->
               <li class = "list-inline-item py-3">
-                <a href = "" target="_blank">
-                  <img class = " rounded-circle m-2" src = "resources/img/cloud.jpg"/>
+                <!--<a href = "" target="_blank"> -->
+                  <img id="myImg" 
+                       class = " rounded-circle m-2" 
+                       src = "resources/img/cloud.jpg" 
+                       data-toggle="modal" 
+                       data-target="#exampleModal" />
                   <br />
                 <span class = "text-secondary">Photography</span></a>
               </li>
+                <!-- Button trigger modal 
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+  Launch demo modal
+</button>data-toggle="modal" data-target="#exampleModal" -->
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel"> </h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+       <img src="resources/img/cloud.jpg" width="100%">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
 
             </ul>
         </div>
