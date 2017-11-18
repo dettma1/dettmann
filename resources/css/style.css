@@ -82,6 +82,10 @@ header {
   width: 100%;
   background-image: url("../img/bg/subtle_white_feathers.png");
 }
+#iconic{
+  height: 250px;
+  float: right;
+}
 
 .sell-form {
   background-color: white;
