@@ -84,7 +84,10 @@ header {
 }
 #iconic{
   height: 250px;
-  float: right;
+}
+
+#langs.col-sm{
+  width: 250px !important;
 }
 
 .sell-form {
