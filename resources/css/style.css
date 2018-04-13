@@ -30,7 +30,18 @@ a {
   color: black;
 }
 .ole {
-  color:  #e4a01b;
+  color:  #e9ecef;
+}
+
+.caption{
+  width: 100%;
+  text-align: center;
+}
+
+.description{
+  display: inline-block;
+  margin: auto;
+  text-align: center;
 }
 
 /*Navbar*/
@@ -55,7 +66,7 @@ header {
 #masthead {
   color: white;
   background: /*linear-gradient(rgba(228, 160, 27,.5), rgba(0,0,0,0.4)),*/ url("../img/mt3.jpg") 0% 0%/cover;
-  height: 700px;
+  height: 750px;
 }
 #masthead p {
   font-size: 24px;
@@ -73,6 +84,20 @@ header {
   font-size: 100px;
 }
 
+.projCt{
+  display: inline-block;
+  margin: auto;
+  height: 100px;
+}
+
+#proj{
+  display: inline-grid;
+}
+
+.center{
+  text-align: center;
+}
+
 #section_two {
   width:100%;
   background-image: url("../img/bg/gray_sand.png");
@@ -85,6 +110,13 @@ header {
 #iconic{
   height: 300px;
 }
+
+#iconPic{
+  height: 50px;
+  margin: 15px;
+  filter: invert(15%);
+}
+
 
 #langs.col-sm{
   width: 250px !important;
