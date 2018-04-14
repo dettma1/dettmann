@@ -102,13 +102,20 @@ header {
   width:100%;
   background-image: url("../img/bg/gray_sand.png");
   font-color:black;
+  padding-top: 25px;
+  background-attachment: fixed;
 }
 #section_three {
   width: 100%;
-  background-image: url("../img/bg/subtle_white_feathers.png");
+  background-image: url("../img/bg/subtle_white_feathers.png"); 
+  padding-top: 25px;
+  background-attachment: fixed;
 }
 #iconic{
   height: 300px;
+  display: inline-block;
+  margin: auto; 
+  align-items: center;
 }
 
 #iconPic{
@@ -133,7 +140,7 @@ form .input-group {
 }
 footer {
   color: white;
-  background-image: url("../img/bg/subtle_white_feathers.png");
+  background-image: url("../img/bg/gray_sand.png");
 
 }
 
