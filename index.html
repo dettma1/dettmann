@@ -46,7 +46,7 @@
 <header id = "masthead">
   <div class = "container">
     <div class = "row">
-      <div class = "col-12">
+      <div class = "col-12 welcome">
         <h1 class = "display-4 text-center pt-4"><span class = "display-3">Hannah</span> 
                                           <br /><span class="display-3">Dettmann</span>
                                           <br /><span class="display-3">&#x2193;</span></h1>
@@ -56,6 +56,49 @@
     </div>
   </div>
 </header>
+
+ <!--section three-->
+  <section id = "section_three">
+      <h3 class = "text-center pt-5 pb-3 black-text" id = "about">About</h3>
+      <br>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm"  id="langs" style="padding-left: 25px;">
+              <h5>Languages</h5>
+                <ul>
+                  <li>Python</li>
+                  <li>C++</li>
+                  <li>SQL</li>
+                  <li>Java</li>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>JavaScript</li>
+                  <li>PHP</li>
+                </ul> 
+            </div>
+            <div class="col-sm"
+                  style="display: inline-grid";>
+               <img src="resources/img/hanprof3.jpg" class="rounded-circle" id="iconic">
+               <br>
+            </div>
+            <div class="col-sm description">
+              <p> As a creator who realized my passion for computer science through adapting code 
+              for a watercolor art blog, I found I learn best by doing. The most exciting aspect
+               of computer science is the ability to create. I love watching our world be transformed 
+               and can only begin to fathom what will have changed in 10 years and what 
+               my own contributions will have transformed.
+             </p>
+             <br>
+             <p>
+               I am a current Junior computer science major at St. Olaf College with an anticipated graduation of May 2020.   
+              </p>
+            </div>
+          </div>
+        </div>
+
+
+</section>
+        
 <!--Section two-->
     <section id ="section_two">
       <div class = "container">
@@ -196,41 +239,126 @@
         </div>
       </div>  
       </br>
-    </section>
-    <!--section three-->
-    <section id = "section_three">
-      <h3 class = "text-center pt-5 pb-3 black-text" id = "about">About</h3>
-      <br>
-        <div class="container">
-          <div class="row">
-            <div class="col-sm"  id="langs" style="padding-left: 25px;">
-              <h5>Languages</h5>
-                <ul>
-                  <li>C++</li>
-                  <li>SQL</li>
-                  <li>HTML</li>
-                  <li>CSS</li>
-                  <li>Python</li>
-                  <li>JavaScript</li>
-                  <li>PHP</li>
-                  <li>Java</li>
-                </ul> 
-            </div>
-            <div class="col-sm"
-                  style="display: inline-grid";>
-               <img src="resources/img/hanprof.jpg" class="rounded-circle" id="iconic">
-               <br>
-            </div>
-            <div class="col-sm description">
-              <p> As a creator who realized my passion for computer science through adapting code 
-              for a watercolor art blog, I found I learn best by doing. The most exciting aspect
-               of computer science is the ability to create. I love watching our world be transformed 
-               and can only begin to fathom what we will look like in 10 years and what 
-               my own contributions will have transformed.   
-              </p>
-            </div>
-          </div>
+      <h3 class = "text-center pt-5 pb-3 white-text" id = "library">Professional Experience</h3>
+        <!--BuzzFeed -->
+               <div class = "row"> 
+              <div class="col" id="proj">
+                  <a id="proj" 
+                  target="_blank"><img 
+                  class = "projCt" 
+                  data-target="#bfModal"
+                  data-toggle="modal" 
+                  src = "resources/img/bf.png"/><br />
+                  <span class = "text-secondary center">BuzzFeed Software Engineer Intern</span></a>
+                  <span class = "text-secondary center">Summer 2018</span></a>
+                </br>
+              </div>
 
+        <!-- CTO -->
+        <div class="col" id="proj">
+                  <a id="proj" 
+                  target="_blank"><img 
+                  class = "projCt" 
+                  data-target="#CTOModal"
+                  data-toggle="modal"
+                  src = "resources/img/Oleville-Logo.png"/><br />
+                  <span class = "text-secondary center">Student Government CTO</span></a>
+                  <span class = "text-secondary center">Fall 2018 - Spring 2019</span></a> 
+                </br>
+              </div>
+
+          <!-- Cambridge -->
+        <div class="col" id="proj">
+                  <a id="proj" 
+                  target="_blank"><img 
+                  class = "projCt rounded-circle" 
+                  data-target="#camModal"
+                  data-toggle="modal"
+                  src = "resources/img/cam.png"/><br />
+                  <span class = "text-secondary center">Cambridge Commissions Anyalyst Intern</span></a>
+                  <span class = "text-secondary center">Summer 2017</span></a> 
+                </br>
+              </div>
+      
+
+      <!-- MODALS --> 
+
+      <!-- BF Modal -->
+<div class="modal fade" id="bfModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">BuzzFeed Intern</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <ul>
+          <li>Created Python tornado Twitter API to retrieve tweet data for articles and postings on website and apps.</li>
+          <li>Updated internal user interfaces with react to improve form functionality</li>
+          <li>Worked with App Services team in agile environment to quickly react to bugs, outages, and implement new features. </li>
+        </ul> 
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- CTO Modal -->
+<div class="modal fade" id="CTOModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">SGA CTO</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <ul>
+          <li>Update student governmnet website to a dynamic, user-friendly, and mobile optimized format</li>
+          <li>Interviewed, hired, and managed a team of three diverse students. </li>
+          <li>Created goals and set deadlines for team to make constant progress</li>
+        </ul> 
+        <a href="http://oleville.com">Oleville Website</a>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Cambridge Modal -->
+<div class="modal fade" id="camModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Commissions Analyst Intern</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <ul>
+          <li>Researched and offered suggestions to a third-party consulting firm for updating compensation statements clients recieved to make statemnets more readable.</li>
+          <li>Wrote, executed, and documented results of more than 15 SQL reports to aid with compliance of new company regulations. </li>
+          <li>Completed weekly user testings prior to new content releases to imporve user experience.</li>
+        </ul>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+</br>
+</br>
+    </section>
+   
     <!--    <h3 class="text-center"> Professional Experience</h3>
       <div class="row">
 
@@ -252,13 +380,13 @@
           <p> Commissions Analyst Intern Summer '18</p>
         </div>        
    -->
-   
+   <section id="section_four">
       <div class="container py-4 text-center">
         <h3 class = "text-center pt-5 pb-3 black-text" id = "officalLinks">Official Informational Links</h3>
       </br>
         <div class="row">
           <div class="col">
-              <a href = "https://drive.google.com/file/d/1D2cmZdvP0mg0H5uPskBV_aPhM0UXG1rz/view?usp=sharing" target="_blank">
+              <a href = "https://drive.google.com/file/d/1UiktzKA9wcJo2DSOEVu7qD7XZlc8Ewoh/view?usp=sharing" target="_blank">
               <img src="resources/img/icons/note2.svg" id="iconPic" data-toggle="modal">
               <br />
               <span class = "text-secondary">&#10; Resume</span></a>

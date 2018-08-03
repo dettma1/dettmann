@@ -75,8 +75,8 @@ header {
   font-size: 24px;
 }
 
-.col-12{
-  margin-top: 250px;
+.welcome{
+  margin-top: 5px;
 }
 
 #masthead .cursive{
@@ -107,13 +107,22 @@ header {
   background-image: url("../img/bg/gray_sand.png");
   font-color:black;
   padding-top: 25px;
+  padding-bottom: 50px;
   background-attachment: fixed;
 }
 #section_three {
   width: 100%;
   background-image: url("../img/bg/subtle_white_feathers.png"); 
   padding-top: 25px;
+  padding-bottom: 50px;
   background-attachment: fixed;
+}
+
+#section_four {
+  width: 100%;
+  background-image: url("../img/bg/subtle_white_feathers.png"); 
+  padding-top: 25px;
+  b
 }
 #iconic{
   height: 300px;
